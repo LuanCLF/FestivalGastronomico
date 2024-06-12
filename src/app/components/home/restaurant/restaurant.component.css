@@ -7,7 +7,6 @@ section {
   align-items: center;
 
   h2 {
-    
     margin-bottom: 18px;
   }
   p {
@@ -37,7 +36,7 @@ section {
       padding: 40px;
 
       border-radius: 12px;
-      #chefImg {
+      .resImg {
         object-fit: cover;
 
         border-radius: 50%;
@@ -45,7 +44,6 @@ section {
         width: 150px;
         height: 150px;
       }
-      
     }
   }
 }

@@ -2,25 +2,24 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-chefs',
+  selector: 'app-restaurant',
   standalone: true,
   imports: [CommonModule],
   template: `<section>
-    <h2>Conheça os Chefs</h2>
+    <h2>Conheça os Restaurantes</h2>
     <p>
-      Alguns dos chefs talentosos e apaixonados que trarão suas melhores
-      receitas para o festival.
+      Alguns dos restaurantes renomados que trarão suas melhores receitas para o
+      festival.
     </p>
 
     <ul>
       <li>
         <img
-          id="chefImg"
-          class="img"
-          src="/assets/images/chef1.jpg"
-          alt="Foto do Chef 1"
+          class="img resImg"
+          src="/assets/images/rest1.jpg"
+          alt="Foto do rest 1"
         />
-        <span>Chef John Doe</span>
+        <span>Água na Boca</span>
 
         <a href="https://www.instagram.com/festivaldemartins/" target="_blank">
           <img
@@ -32,12 +31,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       </li>
       <li>
         <img
-          id="chefImg"
-          class="img"
-          src="/assets/images/chef2.jpg"
-          alt="Foto do Chef 2"
+          class="img resImg"
+          src="/assets/images/rest2.png"
+          alt="Foto do rest 2"
         />
-        <span>Chef Jane Doe</span>
+        <span>Arena Sushi Bar</span>
 
         <a href="https://www.instagram.com/festivaldemartins/" target="_blank">
           <img
@@ -49,12 +47,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       </li>
       <li>
         <img
-          id="chefImg"
-          class="img"
-          src="/assets/images/chef3.jpg"
-          alt="Foto do Chef 3"
+          class="img resImg"
+          src="/assets/images/rest3.png"
+          alt="Foto do rest 3"
         />
-        <span>Chef Alice Doe</span>
+        <span>Papar & Papear</span>
 
         <a href="https://www.instagram.com/festivaldemartins/" target="_blank">
           <img
@@ -66,7 +63,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       </li>
     </ul>
   </section>`,
-  styleUrl: './chefs.component.css',
+  styleUrl: './restaurant.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ChefsComponent {}
+export class RestaurantsComponent {}
