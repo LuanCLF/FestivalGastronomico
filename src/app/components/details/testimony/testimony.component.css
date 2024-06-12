@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 65px;
+
+  flex-wrap: wrap-reverse;
+
+  article {
+    width: 600px;
+
+    h2{
+      margin-bottom: 35px;
+    }
+    p{
+      margin-bottom: 25px;
+
+      text-align: justify;
+    }
+  }
+}

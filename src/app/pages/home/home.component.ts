@@ -10,14 +10,18 @@ import { ContactComponent } from '../../components/home/contact/contact.componen
   standalone: true,
   imports: [
     CommonModule,
-    HeroComponent
-    ,
+    HeroComponent,
     AboutComponent,
     ChefsComponent,
-    ContactComponent
+    ContactComponent,
   ],
-  template: `<app-hero></app-hero><app-about></app-about><app-chefs></app-chefs><app-contact></app-contact>`,
+  template: `<main>
+    <app-hero></app-hero>
+    <app-about></app-about>
+    <app-chefs></app-chefs>
+    <app-contact></app-contact>
+  </main>`,
   styleUrl: './home.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HomeComponent { }
+export class HomeComponent {}

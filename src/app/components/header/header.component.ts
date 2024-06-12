@@ -7,10 +7,12 @@ import { NavComponent } from '../nav/nav.component';
   standalone: true,
   imports: [CommonModule, NavComponent],
   template: `<header>
-    <img
-      src="/assets/icon-festival.png"
-      alt="Imagem do caldeirão do festival"
-    />
+    <a href="https://www.instagram.com/festivaldemartins/" target="_blank">
+      <img
+        src="/assets/icon-festival.png"
+        alt="Imagem do caldeirão do festival"
+      />
+    </a>
 
     <app-nav></app-nav>
   </header>`,
