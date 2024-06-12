@@ -1,0 +1,58 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+
+    gap: 22px;
+
+    margin-top: 40px;
+
+    list-style-type: none;
+
+    li {
+      display: flex;
+
+      gap: 20px;
+
+      .icnContact {
+        background-color: #4c9476d6;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 40px;
+        height: 40px;
+
+        border-radius: 5px;
+      }
+
+      div {
+        h4 {
+          margin-bottom: 7px;
+        }
+        p {
+          margin-bottom: 12px;
+        }
+
+        a {
+          color: rgb(55, 134, 86);
+
+          text-decoration: none;
+
+          display: flex;
+          align-items: center;
+
+          transition: 0.3s;
+          &:hover {
+            gap: 4px;
+          }
+        }
+      }
+    }
+  }
+}

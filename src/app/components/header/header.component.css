@@ -1,0 +1,16 @@
+header {
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  img {
+    width: 60px;
+    height: 60px;
+
+    position: absolute;
+    left: 50px;
+  }
+}

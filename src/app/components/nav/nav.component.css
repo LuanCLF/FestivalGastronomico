@@ -1,0 +1,22 @@
+nav {
+  ul {
+    list-style-type: none;
+
+    display: flex;
+    gap: 55px;
+
+    li {
+      a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 18px;
+        font-weight: 500;
+        transition: 0.3s;
+
+        &:hover {
+          color: rgb(55, 134, 86);
+        }
+      }
+    }
+  }
+}

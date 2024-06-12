@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  width: max-content;
+  height: 44px;
+
+  padding: 1px 10px;
+
+  font-weight: 500;
+
+  color: white;
+
+  font-size: 16px;
+  background-color: #4c9476d6;
+
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #4c9476;
+  }
+
+  cursor: pointer;
+}
+
+section {
+  padding: 55px 20px 30px 20px;
+}
+
+.img {
+  border-radius: 12px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.social {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

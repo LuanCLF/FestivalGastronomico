@@ -1,0 +1,55 @@
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  #pAbout {
+    margin-bottom: 25px;
+  }
+
+  h2 {
+    margin-bottom: 18px;
+  }
+
+  p {
+    max-width: 550px;
+  }
+
+  #main {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 45px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 45px;
+
+    margin-bottom: 25px;
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      gap: 25px;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 8px;
+
+        max-width: 280px;
+      }
+    }
+
+  }
+
+  #campImg {
+    object-fit: cover;
+
+    width: 400px;
+    height: 600px;
+  }
+}

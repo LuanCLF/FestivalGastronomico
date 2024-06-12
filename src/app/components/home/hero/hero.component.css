@@ -1,0 +1,59 @@
+section {
+  background: linear-gradient(
+    rgb(0, 70, 40),
+    rgb(38, 98, 55),
+    rgb(55, 134, 86)
+  );
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  padding-top: 75px;
+  padding-bottom: 55px;
+
+  h1 {
+    font-size: 60px;
+    background: linear-gradient(
+      to right,
+      rgb(19, 104, 36),
+      rgb(197, 211, 199),
+      rgb(255, 255, 255)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    margin-bottom: 25px;
+  }
+
+  #pHero {
+    font-size: 18px;
+    max-width: 550px;
+    margin: auto;
+
+    margin-bottom: 45px;
+  }
+
+  button {
+    margin-bottom: 55px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 55px;
+
+    list-style-type: none;
+    li {
+      display: flex;
+
+      gap: 4px;
+    }
+  }
+}
