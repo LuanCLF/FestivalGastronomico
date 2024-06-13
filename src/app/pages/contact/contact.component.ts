@@ -38,6 +38,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </button>
       </li>
     </ul>
+    <img class="img" src="/assets/prefeitura-martins.png" alt="">
   </section>`,
   styleUrl: './contact.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

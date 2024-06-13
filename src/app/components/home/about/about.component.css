@@ -4,11 +4,11 @@ section {
   flex-wrap: wrap;
 
   #pAbout {
-    margin-bottom: 25px;
+    margin-bottom: 32px;
   }
 
   h2 {
-    margin-bottom: 18px;
+    margin-bottom: 24px;
   }
 
   p {
@@ -17,28 +17,26 @@ section {
 
   #main {
     border-bottom: 1px solid #dcdcdc;
-    padding-bottom: 45px;
+    padding-bottom: 48px;
   }
 
   article {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    padding-top: 45px;
+    gap: 24px;
+    padding-top: 48px;
 
-    margin-bottom: 25px;
+    margin-bottom: 32px;
 
     ul {
       list-style-type: none;
       display: flex;
-      gap: 25px;
 
       li {
         display: flex;
         align-items: center;
         justify-content: center;
-
-        gap: 8px;
+      
 
         max-width: 280px;
       }

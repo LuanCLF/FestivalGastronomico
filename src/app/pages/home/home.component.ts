@@ -12,8 +12,8 @@ import { RestaurantsComponent } from '../../components/home/restaurant/restauran
     CommonModule,
     HeroComponent,
     AboutComponent,
-  RestaurantsComponent,
-    ContactComponent
+    RestaurantsComponent,
+    ContactComponent,
   ],
   template: `<main>
     <app-hero></app-hero>

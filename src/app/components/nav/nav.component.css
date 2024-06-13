@@ -1,22 +1,66 @@
 nav {
   ul {
-    list-style-type: none;
-
     display: flex;
-    gap: 55px;
+    align-items: center;
 
     li {
       a {
-        text-decoration: none;
-        color: inherit;
-        font-size: 18px;
-        font-weight: 500;
         transition: 0.3s;
 
         &:hover {
-          color: rgb(55, 134, 86);
+          color: var(--green-3);
         }
       }
+    }
+
+    @media (max-width: 700px) {
+      display: none;
+
+      position: absolute;
+      top: 100%;
+      right: 3%;
+      flex-direction: column;
+
+      background-color: white;
+
+      padding: 10px;
+
+      border: 1px solid var(--green-3);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      transform: scale(1.02);
+
+      border-radius: 10px;
+
+      gap: 24px;
+      align-items: end;
+      li {
+        border-bottom: 1px solid var(--green-3);
+        padding: 10px;
+      }
+    }
+
+    &.show {
+      display: flex !important;
+    }
+  }
+
+  button {
+    width: max-content;
+    height: max-content;
+
+    margin-right: 16px;
+
+    background-color: white;
+    color: var(--green-1);
+    font-size: 32px;
+    font-weight: 700;
+
+    display: none;
+
+    position: relative;
+
+    @media (max-width: 700px) {
+      display: block;
     }
   }
 }

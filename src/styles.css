@@ -1,9 +1,122 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --green-0: #004628;
+
+  --green-1: #004628;
+  --green-2: #266237;
+  --green-3: #378656;
+
+  --gradiente-hero-1: #136824;
+  --gradiente-hero-2: #c5d3c7;
+  --gradiente-hero-3: #ffffff;
+
+  --btn-normal: #4c9476d6;
+  --btn-hover: #4c9476;
+
+  --black: #220c08;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+section {
+  padding: 72px 24px 56px 24px;
+}
+
+.img {
+  border-radius: 12px;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: normal;
+
+  @media (max-width: 768px) {
+    font-size: 48px;
+    letter-spacing: 1px;
+  }
+  @media (max-width: 480px) {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+  }
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  letter-spacing: normal;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+}
+
+h3 {
+  font-size: 18px;
+  letter-spacing: normal;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+
+}
+p {
+  font-size: 16px;
+  letter-spacing: normal;
+  line-height: normal;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
+}
+a {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: inherit;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
+}
+
+span {
+  font-size: 16px;
+
+}
+
+.social {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 button {
@@ -13,54 +126,32 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: 8px;
 
   width: max-content;
   height: 44px;
 
-  padding: 1px 10px;
-
-  font-weight: 500;
+  padding: 8px 16px;
 
   color: white;
 
-  font-size: 16px;
-  background-color: #4c9476d6;
+  background-color: var(--btn-normal);
 
   transition: 0.3s;
 
   &:hover {
-    background-color: #4c9476;
+    background-color: var(--btn-hover);
   }
 
+  
+
   cursor: pointer;
 }
 
-section {
-  padding: 55px 20px 30px 20px;
-}
-
-.img {
-  border-radius: 12px;
-}
-h1 {
-  font-size: 60px;
-}
-h2 {
-  font-size: 36px;
-}
-
-a {
-  display: flex;
-  align-items: center;
-
-  text-decoration: none;
-  color: inherit;
-}
-
-.social {
-  cursor: pointer;
-  &:hover {
-    transform: scale(1.1);
+ul {
+  list-style: none;
+  gap: 55px;
+  li {
+    gap: 8px;
   }
 }

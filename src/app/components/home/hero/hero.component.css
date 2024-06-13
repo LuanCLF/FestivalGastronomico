@@ -1,9 +1,5 @@
 section {
-  background: linear-gradient(
-    rgb(0, 70, 40),
-    rgb(38, 98, 55),
-    rgb(55, 134, 86)
-  );
+  background: linear-gradient(var(--green-1), var(--green-2), var(--green-3));
 
   color: white;
 
@@ -13,27 +9,24 @@ section {
 
   text-align: center;
 
-  padding-top: 75px;
-  padding-bottom: 55px;
 
   h1 {
-    
     background: linear-gradient(
       to right,
-      rgb(19, 104, 36),
-      rgb(197, 211, 199),
-      rgb(255, 255, 255)
+
+      var(--gradiente-hero-1),
+      var(--gradiente-hero-2),
+      var(--gradiente-hero-3)
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 
-    margin-bottom: 25px;
+    margin-bottom: 32px;
   }
 
   #pHero {
-    font-size: 18px;
-    max-width: 550px;
+    max-width: 700px;
     margin: auto;
 
     margin-bottom: 45px;
@@ -45,15 +38,12 @@ section {
 
   ul {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-
-    gap: 55px;
 
     list-style-type: none;
     li {
       display: flex;
-
-      gap: 4px;
     }
   }
 }

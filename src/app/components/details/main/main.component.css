@@ -4,48 +4,87 @@ section {
   justify-content: center;
   align-items: center;
 
-  gap: 65px;
+  gap: 72px;
 
   text-align: center;
+
+  h1 {
+    font-size: 56px;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 32px;
+    }
+  }
   #details {
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: center;
 
-    gap: 25px;
+    gap: 24px;
     #images {
-      max-width: 630px;
+      max-width: 650px;
 
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
 
-      gap: 15px;
+      gap: 16px;
       .img {
         width: 300px;
         height: 400px;
         object-fit: cover;
+
+        @media (max-width: 768px) {
+          width: 200px;
+          height: 300px;
+        }
+
+        @media (max-width: 480px) {
+          width: 150px;
+          height: 200px;
+        }
       }
     }
 
     #program {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 16px;
+
+      @media (max-width: 1321px) {
+        align-items: center;
+      }
 
       .img {
         width: 550px;
         height: 650px;
+
+        object-fit: cover;
+
+        @media (max-width: 768px) {
+          width: 400px;
+          height: 500px;
+        }
+
+        @media (max-width: 480px) {
+          width: 300px;
+          height: 400px;
+        }
       }
 
       #coment {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 16px;
         text-align: start;
         max-width: 600px;
 
         h2 {
-          font-size: 30px;
+          margin-bottom: 8px;
         }
       }
     }
@@ -55,13 +94,14 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 
     gap: 25px;
 
     div {
       padding: 8px;
 
-      border: 1px solid rgb(55, 134, 86);
+      border: 1px solid #378656;
       box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
       transform: scale(1.02);
 
@@ -76,15 +116,15 @@ section {
       max-width: 500px;
 
       a {
-        color: rgb(55, 134, 86);
+        color: var(--green-3);
 
         display: flex;
         align-items: center;
-        gap: 5px;
+        gap: 8px;
 
         transition: 0.3s;
         &:hover {
-          gap: 6px;
+          gap: 10px;
         }
       }
     }

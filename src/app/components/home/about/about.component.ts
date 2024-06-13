@@ -30,7 +30,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
             <span>Aulas de culinária e workshops interativos.</span>
           </li>
         </ul>
-        <button class="btnGreen">
+        <button >
           <a href="/Detalhes"
             >Saiba Mais <img src="/assets/icons/arrow.svg" alt="ícone de seta"
           /></a>
