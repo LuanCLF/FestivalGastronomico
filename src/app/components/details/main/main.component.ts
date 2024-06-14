@@ -15,30 +15,30 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <div id="images">
         <img
           class="img"
-          src="/assets/images/coreto.png"
+          src="/assets/images/square.png"
           alt="imagem do coreto da praça"
         />
         <img
           class="img"
-          src="/assets/images/festa.png"
+          src="/assets/images/party.png"
           alt="imagem de uma das festas do festival passado"
         />
         <br />
         <img
           class="img"
-          src="/assets/images/caldeirao.png"
+          src="/assets/images/cauldron.png"
           alt="imagem do grande caldeirão que fica na praça"
         />
         <img
           class="img"
-          src="/assets/images/povo.png"
+          src="/assets/images/people.png"
           alt="imagem do povo comemorando com música"
         />
       </div>
       <div id="program">
         <img
           class="img"
-          src="/assets/images/programacao-festival.png"
+          src="/assets/images/program.png"
           alt="programação do festival gastronômico"
         />
         <div id="coment">

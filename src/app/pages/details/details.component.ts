@@ -13,7 +13,6 @@ import { TestimonyComponent } from '../../components/details/testimony/testimony
     <app-doubts></app-doubts>
     <app-testimony></app-testimony>
     </main>`,
-  styleUrl: './details.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DetailsComponent {}

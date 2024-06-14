@@ -40,7 +40,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     <img
       id="campImg"
       class="img"
-      src="/assets/images/CampCook.png"
+      src="/assets/images/champ.png"
       alt="Foto do último vencedor do campeonato de melhor prato"
     />
   </section>`,
