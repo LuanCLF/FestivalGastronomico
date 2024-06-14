@@ -19,7 +19,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <ul>
           <li>
             <img src="/assets/icons/info.svg" alt="ícone de informação" />
-            <span>Chefs renomados apresentando suas criações.</span>
+            <span>Restaurantes renomados apresentando suas criações.</span>
           </li>
 
           <li>
