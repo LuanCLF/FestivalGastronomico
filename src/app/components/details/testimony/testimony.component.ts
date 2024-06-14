@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   template: `<section>
     <img
     class="img"
-      src="/assets/images/picRef.png"
+      src="/assets/images/wine.png"
       alt="foto de uma garota no festival gastronômico"
     />
     <article>
