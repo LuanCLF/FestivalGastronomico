@@ -58,7 +58,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     </article>
 
     <article id="local">
-      <div>
+      <div class="box">
         <h2>Localização do Festival</h2>
         <p>
         O evento acontece na praça central de Martins, encontre-nos aqui e participe deste evento gastronômico inesquecível.

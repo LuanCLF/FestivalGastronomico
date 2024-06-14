@@ -5,14 +5,14 @@
   --green-2: #266237;
   --green-3: #378656;
 
-  --gradiente-hero-1: #136824;
-  --gradiente-hero-2: #c5d3c7;
+  --gradiente-hero-1: #8c1c13;
+  --gradiente-hero-2: #b38c7a;
   --gradiente-hero-3: #ffffff;
 
   --btn-normal: #4c9476d6;
   --btn-hover: #4c9476;
 
-  --black: #220c08;
+  --black: #270702;
 }
 
 * {
@@ -71,8 +71,6 @@ h3 {
     font-size: 14px;
     letter-spacing: 0.5px;
   }
-
-
 }
 p {
   font-size: 16px;
@@ -109,7 +107,6 @@ a {
 
 span {
   font-size: 16px;
-
 }
 
 .social {
@@ -142,8 +139,6 @@ button {
   &:hover {
     background-color: var(--btn-hover);
   }
-
-  
 
   cursor: pointer;
 }

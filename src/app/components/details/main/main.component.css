@@ -23,6 +23,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 
     gap: 24px;
     #images {
@@ -134,6 +135,21 @@ section {
       height: 650px;
 
       object-fit: cover;
+
+      @media (max-width: 768px) {
+        width: 400px;
+        height: 400px;
+      }
+
+      @media (max-width: 480px) {
+        width: 300px;
+        height: 300px;
+      }
+
+      @media (max-width: 320px) {
+        width: 200px;
+        height: 200px;
+      }
     }
   }
 }

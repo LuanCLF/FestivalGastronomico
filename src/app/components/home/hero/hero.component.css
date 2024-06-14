@@ -14,8 +14,8 @@ section {
     background: linear-gradient(
       to right,
 
-      var(--gradiente-hero-1),
-      var(--gradiente-hero-2),
+      var(--gradiente-hero-1) 16%,
+      var(--gradiente-hero-2) 48%,
       var(--gradiente-hero-3)
     );
     -webkit-background-clip: text;
