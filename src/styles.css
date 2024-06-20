@@ -5,6 +5,9 @@
   --green-2: #266237;
   --green-3: #378656;
 
+  --red-1: #8c1c13;
+  --red-2: #b38c7a;
+
   --gradiente-hero-1: #8c1c13;
   --gradiente-hero-2: #b38c7a;
   --gradiente-hero-3: #ffffff;
@@ -89,10 +92,8 @@ p {
 a {
   display: flex;
   align-items: center;
-
   text-decoration: none;
   color: inherit;
-
   font-size: 16px;
   font-weight: 500;
 
@@ -134,13 +135,13 @@ button {
 
   background-color: var(--btn-normal);
 
+  cursor: pointer;
+
   transition: 0.3s;
 
   &:hover {
     background-color: var(--btn-hover);
   }
-
-  cursor: pointer;
 }
 
 ul {

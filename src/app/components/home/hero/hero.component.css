@@ -12,11 +12,10 @@ section {
 
   h1 {
     background: linear-gradient(
-      to right,
-
-      var(--gradiente-hero-1) 16%,
-      var(--gradiente-hero-2) 48%,
-      var(--gradiente-hero-3)
+      150deg,
+      var(--gradiente-hero-3),
+      var(--gradiente-hero-2),
+      var(--gradiente-hero-1)
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

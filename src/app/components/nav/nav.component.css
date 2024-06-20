@@ -5,15 +5,33 @@ nav {
 
     li {
       a {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+gap: 3px;
+
+
         transition: 0.3s;
 
+        
+        span {
+          background-color: var(--red-1);
+          height: 2px;
+          width: 16px;
+          transition: width 0.8s ease;
+        }
         &:hover {
-          color: var(--green-3);
+          color: var(--red-1);
+
+          span {
+            width: 100%;
+          }
         }
       }
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 750px) {
       display: none;
 
       position: absolute;
@@ -34,7 +52,6 @@ nav {
       gap: 24px;
       align-items: end;
       li {
-        border-bottom: 1px solid var(--green-3);
         padding: 10px;
       }
     }
@@ -59,7 +76,7 @@ nav {
 
     position: relative;
 
-    @media (max-width: 700px) {
+    @media (max-width: 750px) {
       display: block;
     }
   }

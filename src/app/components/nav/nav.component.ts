@@ -16,9 +16,10 @@ import {
     >
       <button class="menu-burger">☰</button>
       <ul [class.show]="showMenu">
-        <li><a href="/">Página Inicial</a></li>
-        <li><a href="/Detalhes">Detalhes do Evento</a></li>
-        <li><a href="/Contato">Contato</a></li>
+        <li><a href="/">Página Inicial <span></span></a></li>
+        <li><a href="/Detalhes">Detalhes do Evento <span></span></a></li>
+        <li><a href="/Contato">Contato <span></span></a></li>
+        <li><a href="/Hospedagem">Hospedagem <span></span></a></li>
       </ul>
     </div>
   </nav>`,
