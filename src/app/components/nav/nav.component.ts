@@ -19,7 +19,6 @@ import {
         <li><a href="/">Página Inicial <span></span></a></li>
         <li><a href="/Detalhes">Detalhes do Evento <span></span></a></li>
         <li><a href="/Contato">Contato <span></span></a></li>
-        <li><a href="/Hospedagem">Hospedagem <span></span></a></li>
       </ul>
     </div>
   </nav>`,
